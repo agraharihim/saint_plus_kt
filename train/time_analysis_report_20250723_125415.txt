@@ -1,0 +1,175 @@
+================================================================================
+COMPREHENSIVE TIME ANALYSIS REPORT
+SAINT+ Knowledge Tracing Model
+================================================================================
+Analysis Date: 2025-07-23 12:54:15
+Target Users: 100,000
+
+📚 Loading questions metadata...
+✅ Loaded 13,169 questions
+🔄 Loading 100,000 random users...
+✅ Successfully loaded 100,000 user sequences
+
+🔍 Processing user sequences...
+   Processed 0/100,000 users...
+   Processed 10,000/100,000 users...
+   Processed 20,000/100,000 users...
+   Processed 30,000/100,000 users...
+   Processed 40,000/100,000 users...
+   Processed 50,000/100,000 users...
+   Processed 60,000/100,000 users...
+   Processed 70,000/100,000 users...
+   Processed 80,000/100,000 users...
+   Processed 90,000/100,000 users...
+✅ Processing complete!
+
+============================================================
+ELAPSED TIME ANALYSIS (Time spent answering questions)
+============================================================
+
+📊 Dataset Overview:
+Total users analyzed: 99,813
+Total valid elapsed times: 13,484,414
+Min elapsed time: 200 ms (0.20 seconds)
+Max elapsed time: 89,292,000 ms (89292.00 seconds)
+Median elapsed time: 21,000.00 ms (21.00 seconds)
+Mean elapsed time: 26,348.75 ms (26.35 seconds)
+Standard deviation: 73,799.02 ms
+
+📈 Detailed Percentile Analysis:
+p10.0:  10,000.00 ms (  10.00 seconds)
+p25.0:  16,000.00 ms (  16.00 seconds)
+p50.0:  21,000.00 ms (  21.00 seconds)
+p75.0:  30,000.00 ms (  30.00 seconds)
+p90.0:  45,750.00 ms (  45.75 seconds)
+p91.0:  48,000.00 ms (  48.00 seconds)
+p92.0:  50,000.00 ms (  50.00 seconds)
+p93.0:  53,000.00 ms (  53.00 seconds)
+p94.0:  56,000.00 ms (  56.00 seconds)
+p95.0:  60,000.00 ms (  60.00 seconds)
+p96.0:  64,500.00 ms (  64.50 seconds)
+p97.0:  71,000.00 ms (  71.00 seconds)
+p98.0:  80,000.00 ms (  80.00 seconds)
+p99.0:  99,000.00 ms (  99.00 seconds)
+p99.5: 125,000.00 ms ( 125.00 seconds)
+p99.9: 259,000.00 ms ( 259.00 seconds)
+
+🎯 Response Time Distribution:
+Very fast (< 5s):      403,522 (  3.0%)
+Fast (5-15s):         2,306,877 ( 17.1%)
+Normal (15-60s):      10,097,082 ( 74.9%)
+Slow (1-5m):           666,585 (  4.9%)
+Very slow (> 5m):       10,348 (  0.1%)
+
+⚙️  MAX_TIME Analysis for Elapsed Times:
+Current MAX_TIME setting: 300,000 ms (300.0 seconds)
+Elapsed times above MAX_TIME: 10,289 (0.08%)
+Coverage: 99.92% of responses fit within MAX_TIME
+
+👥 Per-User Statistics Summary:
+Average of user mean elapsed times: 25,169.38 ms
+Average of user median elapsed times: 22,442.97 ms
+Min user mean elapsed time: 1,000.00 ms
+Max user mean elapsed time: 3,740,000.00 ms
+
+============================================================
+LAG TIME ANALYSIS (Time between consecutive questions)
+============================================================
+
+📊 Dataset Overview:
+Total users analyzed: 100,000
+Total valid lag times: 13,310,187
+Min lag time: 1 ms (0.00 seconds)
+Max lag time: 74,104,962,664 ms (74104962.66 seconds)
+Median lag time: 33,301.00 ms (33.30 seconds)
+Mean lag time: 19,594,162.29 ms (19594.16 seconds)
+Standard deviation: 497,173,139.11 ms
+
+📈 Detailed Percentile Analysis:
+p10.0:           36.00 ms (      0.04 seconds)
+p25.0:       15,041.00 ms (     15.04 seconds)
+p50.0:       33,301.00 ms (     33.30 seconds)
+p75.0:       73,466.00 ms (     73.47 seconds)
+p90.0:      234,149.00 ms (    234.15 seconds)
+p91.0:      276,112.26 ms (    276.11 seconds)
+p92.0:      338,380.12 ms (    338.38 seconds)
+p93.0:      443,110.98 ms (    443.11 seconds)
+p94.0:      675,023.40 ms (    675.02 seconds)
+p95.0:    1,485,059.00 ms (   1485.06 seconds)
+p96.0:    6,189,767.44 ms (   6189.77 seconds)
+p97.0:   30,936,011.28 ms (  30936.01 seconds)
+p98.0:   75,415,874.76 ms (  75415.87 seconds)
+p99.0:  162,973,201.98 ms ( 162973.20 seconds)
+p99.5:  399,391,780.43 ms ( 399391.78 seconds)
+p99.9: 3,777,129,465.04 ms (3777129.47 seconds)
+
+🎯 Lag Time Distribution:
+Very short (< 1s):    2,714,437 ( 20.4%)
+Short (1-5s):          192,913 (  1.4%)
+Medium (5-30s):       3,193,638 ( 24.0%)
+Long (30s-5m):        6,069,087 ( 45.6%)
+Very long (> 5m):     1,140,112 (  8.6%)
+
+⚙️  MAX_TIME Analysis for Lag Times:
+Current MAX_TIME setting: 300,000 ms (300.0 seconds)
+Lag times above MAX_TIME: 1,140,040 (8.57%)
+Coverage: 91.43% of lag times fit within MAX_TIME
+
+👥 Per-User Statistics Summary:
+Average of user mean lag times: 39,823,970.22 ms
+Average of user median lag times: 3,218,861.58 ms
+Min user mean lag time: 14.00 ms
+Max user mean lag time: 27,308,628,277.00 ms
+
+============================================================
+COMPARATIVE ANALYSIS
+============================================================
+
+📊 Key Metrics Comparison:
+Elapsed Time - Mean: 26,349 ms (26.3s)
+Elapsed Time - Median: 21,000 ms (21.0s)
+Lag Time - Mean: 19,594,162 ms (19594.2s)
+Lag Time - Median: 33,301 ms (33.3s)
+
+🔍 Time Ratios:
+Mean lag/elapsed ratio: 743.65
+Median lag/elapsed ratio: 1.59
+→ Users spend 743.6x more time between questions than on questions
+
+============================================================
+MODEL PARAMETER RECOMMENDATIONS
+============================================================
+
+⚙️  Current MAX_TIME = 300,000 ms (300s) Analysis:
+✅ Elapsed time coverage: 99.92% - EXCELLENT
+⚠️  Lag time coverage: 91.43% - GOOD
+📋 Recommendation for elapsed times: Current MAX_TIME is well-calibrated
+📋 Recommendation for lag times: Current MAX_TIME handling is acceptable
+
+============================================================
+ANALYSIS SUMMARY
+============================================================
+
+📈 Scale of Analysis:
+Target users: 100,000
+Successfully analyzed: 100,000 users
+Total elapsed time data points: 13,484,414
+Total lag time data points: 13,310,187
+Analysis duration: 0:01:17.851767
+
+🎯 Key Insights:
+• 99% of students answer questions within 99 seconds
+• 74.9% of responses show normal thinking time (15-60s)
+• 90% of question transitions happen within 234 seconds
+• 8.6% of transitions involve long study breaks (>5min)
+
+✅ Model Validation:
+• Current SAINT+ model parameters are well-designed for this dataset
+• Time normalization approach effectively handles the data distribution
+• Dual time features (elapsed + lag) capture different learning behaviors
+
+================================================================================
+END OF ANALYSIS REPORT
+================================================================================
+
+💾 Saving report to: time_analysis_report_20250723_125415.txt

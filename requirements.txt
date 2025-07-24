@@ -1,0 +1,14 @@
+# Python package dependencies for ednet project
+pandas
+mysql-connector-python
+tqdm
+numpy
+
+# Common data science packages (uncomment if needed)
+# matplotlib==3.7.2
+# requests==2.31.0
+
+# Development tools (uncomment if needed)
+# pytest==7.4.0
+# black==23.7.0
+# flake8==6.0.0

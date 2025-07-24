@@ -1,0 +1,168 @@
+================================================================================
+QUESTION COUNT ANALYSIS REPORT
+SAINT+ Knowledge Tracing Model - Sequence Length Statistics
+================================================================================
+Analysis Date: 2025-07-24 00:00:56
+Target Users: 100,000
+
+📚 Loading questions metadata...
+✅ Loaded 13,169 total questions in dataset
+🔄 Loading 100,000 random users...
+✅ Successfully loaded 100,000 user sequences
+
+🔍 Processing user sequences...
+   Processed 0/100,000 users...
+   Processed 10,000/100,000 users...
+   Processed 20,000/100,000 users...
+   Processed 30,000/100,000 users...
+   Processed 40,000/100,000 users...
+   Processed 50,000/100,000 users...
+   Processed 60,000/100,000 users...
+   Processed 70,000/100,000 users...
+   Processed 80,000/100,000 users...
+   Processed 90,000/100,000 users...
+✅ Processing complete!
+
+============================================================
+SEQUENCE LENGTH STATISTICS
+============================================================
+
+📊 Dataset Overview:
+Total users analyzed: 100,000
+Total questions answered: 13,301,629
+Min questions per user: 2
+Max questions per user: 32,489
+Mean questions per user: 133.02
+Median questions per user: 13.00
+Standard deviation: 576.99
+
+📈 Question Count Percentiles:
+p10.0:      5.0 questions
+p25.0:      7.0 questions
+p50.0:     13.0 questions
+p75.0:     42.0 questions
+p90.0:    222.0 questions
+p95.0:    574.0 questions
+p99.0:   2356.0 questions
+p99.5:   3488.0 questions
+p99.9:   7601.0 questions
+
+📏 Sequence Length Distribution:
+Very short (≤ 10):         45,703 ( 45.7%)
+Short (11-50):             31,962 ( 32.0%)
+Medium (51-100):            6,643 (  6.6%)
+Long (101-200):             5,067 (  5.1%)
+Very long (201-500):        5,042 (  5.0%)
+Extremely long (> 500):     5,583 (  5.6%)
+
+⚙️  MAX_SEQ Analysis:
+Current MAX_SEQ setting: 100
+Users within MAX_SEQ: 84,308 (84.31%)
+Users above MAX_SEQ: 15,692 (15.69%)
+Coverage: 84.31% of users fit within MAX_SEQ
+
+📋 MAX_SEQ Recommendations:
+For 95% coverage: MAX_SEQ = 574
+For 99% coverage: MAX_SEQ = 2356
+⚠️  Current MAX_SEQ covers only 84.3% - consider increasing
+
+============================================================
+ACCURACY BY SEQUENCE LENGTH
+============================================================
+
+📊 Accuracy Statistics by Sequence Length:
+
+Very short (≤10):
+  Users: 45,703
+  Avg questions: 6.3
+  Avg accuracy: 44.8%
+  Median accuracy: 42.9%
+
+Short (11-50):
+  Users: 31,962
+  Avg questions: 27.1
+  Avg accuracy: 47.6%
+  Median accuracy: 47.1%
+
+Medium (51-100):
+  Users: 6,643
+  Avg questions: 71.7
+  Avg accuracy: 58.5%
+  Median accuracy: 59.1%
+
+Long (101-200):
+  Users: 5,067
+  Avg questions: 142.7
+  Avg accuracy: 62.0%
+  Median accuracy: 62.8%
+
+Very long (201+):
+  Users: 10,625
+  Avg questions: 1,030.6
+  Avg accuracy: 66.2%
+  Median accuracy: 67.0%
+
+🎯 Overall Statistics:
+Overall mean accuracy: 49.77%
+Overall median accuracy: 50.00%
+
+============================================================
+SAMPLE USER ANALYSIS
+============================================================
+
+👥 Sample Users (first 10):
+User u100011: 55 questions, 26 correct, 47.3% accuracy
+User u100913: 30 questions, 8 correct, 26.7% accuracy
+User u101576: 13 questions, 8 correct, 61.5% accuracy
+User u101910: 4 questions, 0 correct, 0.0% accuracy
+User u103063: 31 questions, 6 correct, 19.4% accuracy
+User u103819: 4 questions, 3 correct, 75.0% accuracy
+User u104919: 52 questions, 16 correct, 30.8% accuracy
+User u107755: 35 questions, 20 correct, 57.1% accuracy
+User u109131: 7 questions, 5 correct, 71.4% accuracy
+User u109281: 30 questions, 16 correct, 53.3% accuracy
+
+🏆 Top 5 Most Active Users:
+User u45335: 32489 questions, 80.1% accuracy
+User u10203: 22229 questions, 80.6% accuracy
+User u10342: 22032 questions, 80.5% accuracy
+User u132296: 19419 questions, 72.2% accuracy
+User u622: 16805 questions, 79.9% accuracy
+
+============================================================
+COMPUTATIONAL IMPACT ANALYSIS
+============================================================
+
+💾 Memory Usage Analysis:
+Current MAX_SEQ: 100
+Average actual sequence length: 133.0
+Median actual sequence length: 13.0
+Memory utilization: 133.0% of allocated space
+
+📏 Padding Analysis:
+Total padding tokens: 6,802,272
+Total allocated tokens: 10,000,000
+Padding ratio: 68.0%
+⚠️  High padding ratio - consider optimizing MAX_SEQ
+
+============================================================
+SUMMARY AND RECOMMENDATIONS
+============================================================
+
+📈 Analysis Summary:
+Users analyzed: 100,000
+Total questions answered: 13,301,629
+Average questions per user: 133.0
+Analysis duration: 0:00:43.043418
+
+⚙️  Current MAX_SEQ=100 Analysis:
+Coverage: 84.31% of users
+⚠️  Recommendation: Consider increasing MAX_SEQ
+   For 90% coverage: MAX_SEQ=222
+   For 95% coverage: MAX_SEQ=574
+
+================================================================================
+END OF QUESTION COUNT ANALYSIS
+================================================================================
+
+💾 Saving report to: question_count_analysis_20250724_000056.txt
